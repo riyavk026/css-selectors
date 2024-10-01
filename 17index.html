@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS </title>
+    <style>
+        /* element selctors */
+        /* div{
+            background-color: purple;
+        } */
+        /* class selectors */
+        .purple{
+            background-color: violet;
+        }
+        /* id selectors */
+        #pink{
+            background-color: palevioletred;
+        }
+        /* child selectors */
+        /* div > p{ */
+            /* color: whitesmoke; */
+            /* background-color: mediumvioletred; */
+        /* } */
+        /* descendant selector */
+          div p{
+            color: aliceblue;
+            background-color: blueviolet; }
+         /*Universal selector  */
+         *{
+            margin: 0;
+            padding: 0;
+
+         }
+         /* pseduo selector */
+         a:visited{
+           color: yellowgreen;
+         }
+         a:link{
+            color: palevioletred;
+         }
+        a:active{
+            background-color: palegreen;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>i am one </p>
+        <p>i am second</p>
+
+    </div>
+    <div class="purple">
+        i am a div
+        <p> i am a para inside a div </p>
+    </div>
+    <div id="pink">
+        i am another div
+    </div>
+    <a href="http://www.google.com"> go to google</a>
+    <a href="http://www.facebook2.com"> go to facebook2</a>
+</body>
+</html>
